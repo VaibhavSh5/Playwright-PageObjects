@@ -1,0 +1,45 @@
+{
+    "Homepage":{
+
+        "newCars": "//li[@class= ' nS6XVS']/div",
+        "findNewCars": "text='Find New Cars'",
+        "newCarsHeading": ".o-gr > section > header > h1"
+    },
+
+    "NewCarsPage": {
+
+        "tataPage": "//img[@alt='Tata Cars']",
+        "hyundaiPage": "//img[@alt='Hyundai Cars']",
+        "bmwPage": "//img[@alt='BMW Cars']",
+        "skodaPage": "//img[@alt='Skoda Cars']"
+
+    },
+
+    "TataCarsPage":{
+
+        "tataCarsHeading": "//h1[text()='Tata Cars']",
+        "makeFilter": "//span[text()='Make']"
+
+    },
+
+    "HyundaiCarsPage":{
+        
+        "hyundaiCarsHeading": "//h1[text()='Hyundai Cars']",
+        "makeFilter": "//span[text()='Make']"
+    },
+
+    "SkodaCarsPage":{
+
+        "skodaCarsHeading": "//h1[text()='Skoda Cars']",
+        "makeFilter": "//span[text()='Make']"
+
+    },
+
+    "BMWCarsPage":{
+
+        "bmwCarsHeading": "//h1[text()='BMW Cars']",
+        "makeFilter": "//span[text()='Make']",
+        "allMakesFilter": "//span[@data-testid='all-makes']"
+
+    }
+}
