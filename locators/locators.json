@@ -41,5 +41,13 @@
         "makeFilter": "//span[text()='Make']",
         "allMakesFilter": "//span[@data-testid='all-makes']"
 
+    },
+
+    "CarsBase": {
+
+        "consentPopUp": ".fc-button.fc-cta-consent.fc-primary-button",
+        "carsTitle": ".o-cE.o-dH.o-c8.o-db.o-bO.pb-0 > h1",
+        "carsPrices": "//span[contains(text(), 'Rs.')]",
+        "carsNames": "//h3[@class= 'o-j4 o-jq o-hM o-c4 o-jK']"
     }
 }

@@ -5,6 +5,7 @@ import { TataCarsPage } from '../pages/TataCarsPage';
 import { HyundaiCarsPage } from '../pages/HyundaiCarsPage';
 import { SkodaCarsPage } from '../pages/SkodaCarsPage';
 import { BMWCarsPage } from '../pages/BMWCarsPage';
+import { CarsBasePage } from '../pages/CarsBasePage';
 
 
 export class PageFixtures{
@@ -15,6 +16,7 @@ export class PageFixtures{
     readonly hyundaiCarsPage: HyundaiCarsPage;
     readonly skodaCarsPage: SkodaCarsPage;
     readonly bmwCarsPage: BMWCarsPage;
+    readonly carsBasePage: CarsBasePage;
     readonly page: Page;
 
     constructor(page:Page){
@@ -24,6 +26,7 @@ export class PageFixtures{
         this.tataCarsPage = new TataCarsPage(page);
         this.hyundaiCarsPage = new HyundaiCarsPage(page);
         this.skodaCarsPage = new SkodaCarsPage(page);
+        this.carsBasePage = new CarsBasePage(page);
         this.bmwCarsPage = new BMWCarsPage(page);
     }
 

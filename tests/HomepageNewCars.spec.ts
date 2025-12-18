@@ -18,8 +18,9 @@ test.describe('Homepage Car Test', ()=>{
     test('Finding new cars on CARWALE', async({pages})=>{
 
         await pages.homepage.findNewCars();
-        expect(pages.basePage).toHaveURL('/new-cars/')
+        await pages.homepage.waitForTimeout(10000);
+        await pages.carsBasePage.closeConsentPopUp();
+        expect(pages.basePage).toHaveURL('/new-cars/');
         expect(await pages.homepage.getTextContent(locators.Homepage.newCarsHeading)).toBe('New Cars');
     })
-
-})
+});
