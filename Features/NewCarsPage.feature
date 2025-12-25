@@ -15,7 +15,7 @@ Feature: Navigation to the New cars page on carwale
 
     Examples:
         | Car Brand | Car Model |
-        | BMW       | BMW  |
+        | BMW       | BMW Cars|
         | Tata      | Tata Cars |
         | Skoda     | Skoda Cars|
         | Hyundai   | Hyundai Cars|

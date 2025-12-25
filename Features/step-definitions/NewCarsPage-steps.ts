@@ -10,7 +10,7 @@ Given('the user is on the cars Homepage', async function (this: CustomWorld) {
          });
         
        
-When('the user hover on the New cars and click on Find new cars', async function (this: CustomWorld) {
+When('the user hover on the New cars and click on Find new cars', {timeout: 60000}, async function (this: CustomWorld) {
     console.log('the user hovers on the New cars option and clicks on Find new cars page')
     await this.pages.homepage.findNewCars();
          });

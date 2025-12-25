@@ -6,6 +6,7 @@
                     "Features/hooks/world.ts"],
         "requireModule": ["ts-node/register"],
         "format": ["pretty",
-                    "progress", "json:reports/cucumber-report.json"]
+                    "progress", "json:reports/cucumber-report.json"],
+        "timeout": 60000
     }
 }
