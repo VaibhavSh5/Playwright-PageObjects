@@ -7,6 +7,5 @@ Feature: Landing on Homepage
     Given the user is on Homepage
 
   Scenario:
-    When user hovers on the New Cars option
-    And clicks on the Find New Cars option
+    When user hovers on the New Cars option and clicks on Find New Cars
     Then they are directed to the New Cars page

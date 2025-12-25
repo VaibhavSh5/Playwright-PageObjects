@@ -11,9 +11,11 @@ node_modules/
 /screenshots/
 /videos/
 /traces/
+tests/seed.spec.ts
 
 #Test Folders:
 
 /.vscode/
 /reports/
-
+/.github/
+/specs/

@@ -2,7 +2,8 @@
     "default": {
         "paths": ["Features/*.feature"],
         "require": ["Features/step-definitions/*.ts",
-                    "Features/hooks/hooks.ts"],
+                    "Features/hooks/hooks.ts",
+                    "Features/hooks/world.ts"],
         "requireModule": ["ts-node/register"],
         "format": ["pretty",
                     "progress", "json:reports/cucumber-report.json"]

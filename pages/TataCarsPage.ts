@@ -11,6 +11,6 @@ export class TataCarsPage extends BasePage{
         super(page);
     }
     async tataCarsFilter(){
-        this.click(this.locators.makeFilter);
+        await this.click(this.locators.makeFilter);
     }
 }

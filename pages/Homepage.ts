@@ -14,7 +14,7 @@ export class Homepage extends BasePage{
     // private findNewCarsLoc = () => this.page.locator('text="Find New Cars"')
 
     async navigateToHomepage(){
-        await this.navigateToURL('/');
+        await this.navigateToURL('https://carwale.com');
     }
 
     async findNewCars(){
